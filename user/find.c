@@ -57,7 +57,7 @@ void find(char *dir, char *name) {
 }
 
 int main(int argc, char *argv[]) {
-  if (argc < 2) {
+  if (argc < 3) {
     fprintf(2, "usage: find [dir] [name]\n");
     exit(1);
   }

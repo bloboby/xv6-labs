@@ -2,7 +2,7 @@
 #include "user/user.h"
 
 int main(int argc, char *argv[]) {
-  if (argc < 1) {
+  if (argc < 2) {
     fprintf(2, "usage: sleep [ticks]\n");
     exit(1);
   }
